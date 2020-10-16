@@ -1,7 +1,7 @@
 package com.example.weather.weather_report_generator.models;
 
 public class FullWeatherReport {
-    private int cod, id, timezone, time;
+    private int cod, id, timezone, dt;
     private String name, base;
     private double visibility;
 
@@ -84,12 +84,12 @@ public class FullWeatherReport {
         this.timezone = timezone;
     }
 
-    public int getTime() {
-        return time;
+    public int getDt() {
+        return dt;
     }
 
-    public void setTime(int time) {
-        this.time = time;
+    public void setDt(int dt) {
+        this.dt = dt;
     }
 
     public String getName() {
