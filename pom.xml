@@ -19,6 +19,11 @@
 	</properties>
 
 	<dependencies>
+<!--    lombok                          -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
 <!--	spring-boot-starter-batch		-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

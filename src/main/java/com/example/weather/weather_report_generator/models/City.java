@@ -7,8 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Weather {
-    private int id;
-    private String main, description, icon;
-
+public class City {
+    private String name;
 }

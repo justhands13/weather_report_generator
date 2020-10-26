@@ -1,13 +1,12 @@
 package com.example.weather.weather_report_generator.models;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Clouds {
     private double all;
-
-    public double getAll() {
-        return all;
-    }
-
-    public void setAll(double all) {
-        this.all = all;
-    }
 }
