@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WeatherReportGeneratorApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Program started...");
 		SpringApplication.run(WeatherReportGeneratorApplication.class, args);
 	}
 
